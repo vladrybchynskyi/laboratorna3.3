@@ -22,7 +22,7 @@ int main() {
                 if (0 <= x && x <= R)
                     y = R - x;
                 else
-                    if (R <= x && x < ++R)
+                    if (R <= x && x < R + 1)
                         y = sqrt(R * R - x * x);
                     else
                         y = R - x;
